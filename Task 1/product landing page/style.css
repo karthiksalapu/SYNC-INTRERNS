@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+
+.display-none {
+    display: none;
+}
+
+/* .just_url {
+    color: "https://img.freepik.com/free-vector/tax-statement-web-isometric-composition-with-laptop-screen-online-account-code-specifications-handbook-payment_1284-26685.jpg?size=626&ext=jpg";
+    background-image: url('https://img.freepik.com/free-vector/tax-calculating-concept-man-checking-finance-debts_613284-1014.jpg?size=626&ext=jpg');
+    background-image: url('https://img.freepik.com/free-vector/taxes-accounting-isometric-illustration_1284-56432.jpg?size=626&ext=jpg');
+    background-image: url('https://img.freepik.com/premium-photo/confident-handsome-male-freelance-salesman-making-notes-from-laptop-while-examining-data-desk_662251-908.jpg?size=626&ext=jpg');
+
+} */
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-style {
+    display: flex;
+    padding: 15px;
+
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-items {
+    display: flex;
+    margin-left: auto;
+    margin-right: 10px;
+    align-self: center;
+}
+
+#home-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#about-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#services-item {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 20px;
+}
+
+#contact-item {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    list-style: none;
+    margin-right: 10px;
+}
+
+
+.logo-ASK {
+    height: 100px;
+    width: 280px;
+}
+
+/* Main Styles */
+main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#Introdetails {
+    /* background-image: url('https://img.freepik.com/premium-photo/financial-researchgovernment-taxes-calculation-tax-return-concept-businessman-using_117255-2112.jpg?w=1060'); */
+    background-color: #4f4d46;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px;
+    margin-bottom: 40px;
+}
+
+.Welcome-text {
+    font-size: 48px;
+    margin-top: 0;
+    color: yellow;
+}
+
+.ASK-discription {
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #666;
+}
+
+.section-headings {
+    color: blue;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.about-section {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.about-inside-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.services-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+#services ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#services li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+.members-section {
+    background-color: #fff;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.members-list {
+    display: flex;
+    flex-direction: row;
+    overflow-y: scroll;
+    overflow: auto;
+    flex-wrap: wrap;
+}
+
+.members-list {
+    display: flex;
+    flex-direction: row;
+    overflow-x: scroll;
+}
+
+.member-img-style {
+    height: 160px;
+    width: 160px;
+    border-radius: 15px;
+    margin-top: 5px;
+}
+
+.member-details {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px;
+    background-color: #d1e1e8;
+    min-width: 170px;
+    padding: 10px;
+
+    border-radius: 10px;
+}
+
+.member-name-container {
+    text-align: center;
+    margin: 0px;
+}
+
+.member {
+    margin-bottom: 5px;
+    font-size: 15px;
+    font-family: "open sans";
+}
+
+.member-name {
+    color: #6d2bab;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.qualification {
+    color: black;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.exp-years {
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.contact-send-btn {
+    height: 34px;
+    width: 110px;
+    text-align: center;
+}
+
+.resources-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+.resources-nav-items {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#resources li:hover {
+    text-decoration: underline;
+    color: orange;
+
+}
+
+#resources li {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+}
+
+#resources a {
+    color: #333;
+    text-decoration: none;
+}
+
+.contact-section {
+    background-color: #f7f7f7;
+    padding: 40px;
+    margin-bottom: 40px;
+}
+
+form label {
+    display: block;
+    font-size: 24px;
+    color: black;
+    font-family: "Roboto";
+    margin-bottom: 10px;
+
+}
+
+form input,
+form textarea {
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 12px;
+    border: solid 1px blue;
+}
+
+.contact-send-btn {
+    height: 100px;
+    width: 130px;
+}
+
+/* Button Animations - form here ------------------------------------------------------------------------------*/
+
+
+
+.button-circle-anime {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #333;
+    padding: 1em 2em;
+    border: none;
+    border-radius: .6rem;
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button-circle-anime span:not(:nth-child(6)) {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    height: 30px;
+    width: 30px;
+    background-color: #0c66ed;
+    border-radius: 50%;
+    transition: .6s ease;
+}
+
+.button-circle-anime span:nth-child(6) {
+    position: relative;
+}
+
+.button-circle-anime span:nth-child(1) {
+    transform: translate(-3.3em, -4em);
+}
+
+.button-circle-anime span:nth-child(2) {
+    transform: translate(-6em, 1.3em);
+}
+
+.button-circle-anime span:nth-child(3) {
+    transform: translate(-.2em, 1.8em);
+}
+
+.button-circle-anime span:nth-child(4) {
+    transform: translate(3.5em, 1.4em);
+}
+
+.button-circle-anime span:nth-child(5) {
+    transform: translate(3.5em, -3.8em);
+}
+
+.button-circle-anime:hover span:not(:nth-child(6)) {
+    transform: translate(-50%, -50%) scale(4);
+    transition: 1.5s ease;
+}
+
+/*contact send button*/
+
+
+
+.contact-send-btn {
+    position: relative;
+    overflow: hidden;
+    height: 3rem;
+    padding: 0 2rem;
+    border-radius: 1.5rem;
+    background: #3d3a4e;
+    background-size: 400%;
+    color: #fff;
+    border: none;
+}
+
+.contact-send-btn:hover::before {
+    transform: scaleX(1);
+}
+
+.button-content {
+    position: relative;
+    z-index: 1;
+
+    color: white;
+    font-size: 24px;
+    font-family: Open sans;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.contact-send-btn::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: 0 50%;
+    width: 100%;
+    height: inherit;
+    border-radius: inherit;
+    background: linear-gradient(82.3deg,
+            rgba(150, 93, 233, 1) 10.8%,
+            rgba(99, 88, 238, 1) 94.3%);
+    transition: all 0.475s;
+}
+
+
+/* Button Animations - ends here ------------------------------------------------------------------------------*/
+
+
+.taxCalculator {
+    display: block;
+    font-family: Roboto;
+    color: green;
+}
+
+@media (max-width:768px) {
+
+    #Introdetails {
+        padding: 20px;
+    }
+
+    .logo-ASK {
+        height: 70px;
+        width: 140px;
+        margin-right: auto;
+    }
+
+    .nav-items {
+        display: none;
+    }
+
+    .Welcome-text {
+        font-size: 36px;
+        margin: 0;
+        color: white;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .Welcome-text:hover {
+        text-decoration: underline;
+    }
+
+    .firm-name {
+        color: gold;
+        font-size: 28px;
+    }
+
+    .ASK-discription {
+        font-size: 16px;
+        margin-bottom: 10px;
+        font-family: "caveat";
+    }
+
+    .about-inside-text {
+        font-size: 16px;
+        font-family: "open sans";
+        margin-bottom: 10px;
+    }
+
+    #services li {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-bottom: 5px;
+    }
+
+    .members-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+    }
+
+    .member-img-style {
+        height: 160px;
+        width: 160px;
+        border-radius: 15px;
+        margin-top: 5px;
+    }
+
+    .member-details {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        margin: 10px;
+
+        background-color: #ccd7db;
+        min-width: 170px;
+        padding: 10px;
+
+        border-radius: 10px;
+    }
+
+    .member-name-container {
+        text-align: center;
+        margin: 0px;
+    }
+
+    .member {
+        margin-bottom: 5px;
+        font-size: 15px;
+        font-family: "open sans";
+    }
+
+    .member-name {
+        color: #6d2bab;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .qualification {
+        color: black;
+        font-size: 12px;
+        font-weight: bold;
+        margin-bottom: 0px;
+    }
+
+    .exp-years {
+        color: red;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .contact-send-btn {
+        height: 34px;
+        width: 110px;
+        text-align: center;
+    }
+
+    .button-content {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    form label {
+        font-size: 20px;
+    }
+
+    form input,
+    form textarea {
+        height: 16px;
+    }
+
+}
